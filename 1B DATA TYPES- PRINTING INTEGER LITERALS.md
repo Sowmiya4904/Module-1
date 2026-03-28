@@ -1,27 +1,28 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1B- Data Types – Printing Integer Literals
 
-## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+## AIM  
+To write a Python program to print the following integer literals: 123, 456, 789.
 
-## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+## ALGORITHM  
+1. Begin the program.  
+2. Initialize the integer literals `123`, `456`, and `789`.  
+3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
+4. Terminate the program.
 
 ## PROGRAM
-```
-a=eval(input())
-b=eval(input())
-print("A is",a)
-print("B is",b)
-print("Sum is",a+b)
+```python
+
+num1 = 123
+num2 = 456
+num3 = 789
+
+print(num1)
+print(num2)
+print(num3)
 
 ```
-
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/0ab2c539-9ef1-4a02-9e25-71bbe7bb2cbb)
+![image](https://github.com/user-attachments/assets/8a35d390-720c-4644-a789-9805e9f56760)
+
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus, the Python program to print the integer literals 123, 456, and 789 was successfully created and executed.
